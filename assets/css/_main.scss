@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900;
+    font-family: 'Outfit', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    h1 {
+      @apply text-[5rem] font-extralight leading-[100px];
+    }
+  }
+
+  #content-area {
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+  }
+
+  #content-area::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;
+  }
+}

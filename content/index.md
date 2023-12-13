@@ -1,9 +1,15 @@
-# Nuxt Content
-
-This page corresponds to the `/` route of your website. You can delete it or create another file in the `content/` directory.
-
-Try to navigate to [/about](/about). These 2 pages are rendered by the `pages/[...slug].vue` component.
-
+---
+title: 2Ants Lab
+description: 2Ants is no ordinary agency. It's a lab dedicated to doing some of the wildest tech integrations and works known in the industry.
+navigation: true
+head: true
 ---
 
-Look at the [Content documentation](https://content.nuxtjs.org/) to learn more.
+::Hero
+
+# We have a deep passion for data and the architectural systems that are developed to leverage it. Our focus is on transforming data into practical, actionable elements.
+
+[Start something](/contact){class="inline-block bg-slate-800 text-white px-5 py-2 mt-7"}
+::
+
+:LabList

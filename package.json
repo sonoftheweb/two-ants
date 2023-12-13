@@ -8,9 +8,14 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
+    "@hypernym/nuxt-anime": "latest",
     "@nuxt/content": "^2.9.0",
     "@nuxtjs/google-fonts": "latest",
     "@nuxtjs/tailwindcss": "latest",
+    "@vueuse/nuxt": "latest",
     "nuxt": "^3.8.2"
+  },
+  "dependencies": {
+    "sass": "^1.69.5"
   }
 }

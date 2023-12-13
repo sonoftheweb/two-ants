@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  header {
+    @apply p-5 w-screen h-[78px] fixed top-0 left-0 flex justify-between items-center overflow-hidden;
+
+    div:first-child {
+      @apply text-4xl font-extralight;
+    }
+
+    .menu-trigger {
+      @apply w-14 h-14;
+    }
+
+    .menu {
+      @apply fixed w-[0px] h-[500px] top-1/2 right-0 -translate-y-1/2;
+      ul {
+        @apply flex flex-col items-end h-1/2;
+        li {
+          @apply text-5xl font-extralight flex-grow w-0 overflow-hidden;
+          a {
+            @apply my-[10px] px-3 text-slate-100 bg-slate-900 hover:bg-slate-800 cursor-pointer;
+          }
+        }
+      }
+    }
+  }
+}
